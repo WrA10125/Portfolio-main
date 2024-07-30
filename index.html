@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Gore</title>
+    <link rel="icon" href="imgicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mukta:wght@300&family=Poppins:wght@400;600;700&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38f8533cd0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="left">Ajay Gore</div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>Hello, My name is <span class="purple">Ajay Gore</span></div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="img/devloper.png" alt="">
+            </div>
+        </section>
+        <!-- <hr> -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/dev.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I’ve been a web developer for few months now, and it’s always been my dream to work in this field. I am passionate about creating beautiful websites that are easy to use and understand.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('exeperience')">Exeperience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming: </span> C, C++, Java,  </li>
+                                <li><span>Web Development: </span> HTML,CSS,JavaScript,React.js,Node.js</li>
+                                <li><span>Miscellaneous:</span> Microsoft Office, Canva, ChatGpt, Advance Excel</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="exeperience">
+                            <ul>
+                                <div class="red">•Java Development Intern</div>Livewire <br>
+                                <div class="red">•Web Development Intern</div>NullClass <br>
+                                <div class="red">•Web Development Intern </div>CodSoft<br>
+                                <div class="red">•Data Analytics Intern</div>
+                                 kulturehire<br>
+                                <div class="red">•Data Analytics Intern</div> Ybi Foundation<br>
+                                <div class="red">•Cyber Security Intern</div> Ooma Cyber Solution<br>
+                                <div class="red">•Network Engineer Intern</div> Tata Elxsi<br>
+                                
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <div class="red"> •New Horizon Institute of Technology and Management</div> B.E. in Computer Engineering, Thane, Maharashtra
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Interests</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>UX design focuses on the interaction that a human user has with everyday products and services. The goal of UX design is to make using these products and services, both digital or physical, easy, logical, and fun.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Development</h2>
+                        <p>Application development is the process of planning, designing, creating, testing, and deploying a software application to perform various business operations.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Computer Repairing and Maintainance Website </h3>
+
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Online Quiz Website</h3>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/work-2.png" alt="">
+                        <div class="layer">
+                            <h3>Creative Scrapyard</h3>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>Network Packet Sniffer</h3>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>LLM Based Music Captioning</h3>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="img/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>Portfolio Website</h3>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <div class="cl"></div>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>0231234526</p>
+                        <div class="social-icon">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="C:\Users\Ajay Shankar Gore\Downloads\AJAY  GORE RESUME.pdf" download class="btn btn2" id="btn">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="" id="form">
+                            <input type="text" name="name" placeholder="Your name" required>
+                            <input type="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2" id="b">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ajay Gore's Portfolio</h3>
+            </div>
+        </div>
+        <div class="footer-rights">
+            &copy; Ajaygoreportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
